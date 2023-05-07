@@ -1,0 +1,8 @@
+/* external css */
+
+h1{
+    color: black;
+    text-align: center;
+    border:5px dotted rgb(0, 128, 11);
+    padding: 10px;
+}

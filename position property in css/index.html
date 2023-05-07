@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Position</title>
+        
+        <style>
+            .box{
+                display: inline-block;
+                border: 2px solid red;
+                width: 150px;
+                height: 100px;
+                margin: 2px;
+                right:4px;
+            }
+
+
+            #box3{
+                /* position:absolute; */
+                /* position:relative; */
+                /* position:fixed; */
+                position:sticky 
+                /* top:30px; */
+                /* left:30px; */
+                
+            }
+
+            .container{
+                border: 3px solid green;
+                height: 900px;
+                background-color: blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            
+        </div>
+    </body>
+</html>
