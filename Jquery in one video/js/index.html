@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+</head>
+
+<body>
+    <p>this is my file1</p>
+    <p id="second">this is my file2</p>
+    <p class="third">this is my file3</p>
+    <p>this is my file4</p>
+    <p>this is my file5</p>
+</body>
+
+
+
+<!-- <script src="js/jquery-3.6.4.min.js"></script> -->
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
+<script>
+    $(document).ready(function () {
+
+        // Jquey code
+        // console.log($);
+        // console.log(JQuery);
+
+ // there are 3 main types of selectors in jquery
+    // 1. element selector 
+    // 2. id selector  
+    // 3. class selector 
+
+        // $('selector').action()
+
+        // $('p').click();
+        $('p').click(function () {
+            console.log("you clicked on p");
+            // $('p').hide();
+            $(this).hide();
+            // $('#id').hide();
+            // $('.class').hide();
+        });
+    })
+
+
+// 1. Element selector 
+// $('p').click(function(){
+//     console.log("pawan");
+// });
+
+//2. id selector
+
+$('#second').click(function(){
+})
+
+// 3. class selector
+$('.third').click(function(){
+    // document.getElementsByClassName('.third').innerHTML="superman";
+    console.log("hii");
+})
+</script>
+
+</html>
