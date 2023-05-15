@@ -1,0 +1,20 @@
+1 297 820 906
+
+
+
+sudo nano /etc/resolv.conf
+
+#
+nameserver 192.168.1.84
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+
+
+ctrl+x
+y
+ 
+sudo systemctl restart dnsmasq
+
+
+
+
